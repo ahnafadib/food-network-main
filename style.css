@@ -1,0 +1,70 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.diet{
+    color:orange;
+}
+a{
+    background-image: linear-gradient(orange,red);
+    color:white;
+    text-decoration: none;
+    border: 30px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.f-div{
+    width: 80%;
+    margin: 10px;
+    padding:10px;
+
+}
+
+.m-cls{
+    display: flex;
+    width: 100%;
+}
+.back{
+    background-image: url("Frame 58.jpg");
+    background-repeat: no-repeat;
+}
+.n-div{
+    border: 20px;
+    padding: 50px;
+}
+.recipe{
+    text-align: center;
+}
+.sec-c{
+    width:100%;
+}
+.spn{
+    color:red;
+}
+.container{
+    width:30%;
+    height: auto;
+    box-shadow:gray 10px 10px 10px 10px;
+    border: 5px;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    border-radius: 10px;
+}
+.new-sc
+{
+    display: flex;
+}
+.food
+{
+    width:30%;
+    height: auto;
+    box-shadow:gray 10px 10px 10px 10px;
+    border: 5px;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    border-radius: 10px;
+
+}
+
+
