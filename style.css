@@ -81,7 +81,7 @@ a{
     padding: 15px;
     border:20px;
     width: 100%;
-    align:center;
+    orientation: center;
 }
 .new{
     background-image: url("Frame 59.jpg");
@@ -95,4 +95,7 @@ a{
 }
 .cel{
     color: red;
+}
+.rep{
+    text-align: center justify;
 }
