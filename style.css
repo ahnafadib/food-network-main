@@ -14,7 +14,7 @@ a{
 }
 .f-div{
     width: 80%;
-    margin: 10px;
+    margin: 30px;
     padding:10px;
 
 }
@@ -34,11 +34,20 @@ a{
 .recipe{
     text-align: center;
 }
-.sec-c{
-    width:100%;
+.sec-c
+{
+    display: flex;
 }
-.spn{
-    color:red;
+.food{
+        width:30%;
+        height: auto;
+        box-shadow:gray 10px 10px 10px 10px;
+        border: 5px;
+        padding: 10px;
+        margin: 10px 10px 10px 10px;
+        display:flex;
+        border-radius: 15px;
+    
 }
 .container{
     width:30%;
@@ -47,24 +56,22 @@ a{
     border: 5px;
     padding: 10px;
     margin: 10px 10px 10px 10px;
-    display: flex;
-    border-radius: 10px;
+    display: inline-flex;
+    float: left;
+    border-radius: 15px;
+}
+.imga{
+    image: url("daal.png");
 }
 .new-sc
 {
     display: flex;
 }
-.food
-{
-    width:30%;
-    height: auto;
-    box-shadow:gray 10px 10px 10px 10px;
-    border: 5px;
-    padding: 10px;
-    margin: 10px 10px 10px 10px;
-    display: flex;
-    border-radius: 10px;
-
+.foot{
+    text-align: center;
+    background: black;
+    color: white;
 }
-
-
+.daal{
+    color: red;;
+}
