@@ -59,6 +59,7 @@ a{
     display: inline-flex;
     float: left;
     border-radius: 15px;
+    box-sizing:border-box;
 }
 .imga{
     image: url("daal.png");
@@ -66,12 +67,31 @@ a{
 .new-sc
 {
     display: flex;
+    margin: 40px;
+    padding: 5px;
 }
 .foot{
     text-align: center;
     background: black;
     color: white;
 }
-.daal{
-    color: red;;
+.rest{
+    display: flex;
+    padding: 15px;
+    border:20px;
+    width: 100%;
+    align:center;
+}
+.new{
+    background-image: url("Frame 59.jpg");
+    width: 100%;
+}
+.xtra{
+    background-image: url("Frame\ 56.jpg");
+}
+.last{
+    text-align: center;
+}
+.cel{
+    color: red;
 }
